@@ -6,7 +6,7 @@ export default class Article extends React.Component {
 
     return (
       <div class="col-md-12">
-        <h4>{title}</h4>
+        <h2>{title}</h2>
         <img src={this.props.photo} />
         <p>{this.props.description}</p>
       </div>
